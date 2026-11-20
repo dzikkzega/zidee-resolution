@@ -28,6 +28,6 @@ jobs:
           file="Zidee-Ress-$TAG.apk"
           gh release download "$TAG" --pattern "$file"
           printf '%s  %s\n' "$DIGEST" "$file" | sha256sum -c -
-          signer=$(ls -v "$ANDROID_HOME"/build-tools/*/apksigner | tail -1)
+          signer="$ANDROID_HOME/build-tools/35.0.0/apksigner"
           "$signer" verify --print-certs "$file" | grep -Fx 'Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af'
           gh release edit "$TAG" --draft=false
