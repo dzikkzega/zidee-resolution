@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Zidee Ress</string>
     <string name="quick_share_label">Zidee Ress · Quick Optimize</string>
+    <!-- Append new releases; retain all earlier entries. Bundled read-only, including offline. -->
+    <string name="release_history">1.1.0 — Riwayat versi tersedia offline dari dashboard.\n\n1.0.1 — APK ARM64 dan x86_64 terpisah agar unduhan lebih kecil.\n\n1.0.0 — Rilis awal: optimasi foto dan video offline, Studio, Quick Share, dan album ZideeResolution.</string>
 </resources>

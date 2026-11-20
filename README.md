@@ -4,6 +4,18 @@
 
 ---
 
+## Unduhan dan versi
+
+[APK resmi](https://github.com/dzikkzega/zidee-resolution/releases/latest): pilih `arm64-v8a` untuk ponsel ARM64 atau `x86_64` untuk emulator yang sesuai. Versi memakai `MAJOR.MINOR.PATCH` (perubahan tidak kompatibel, fitur, perbaikan); `versionCode` naik setiap rilis. Pembaruan opsional. Mulai v1.1.0, **Dashboard → Riwayat versi** menampilkan changelog bawaan, termasuk saat offline. Tambahkan entri ke `release_history` setiap rilis tanpa menghapus entri lama. [Panduan rilis](docs/engineering/VERSIONING.md).
+
+## Penggunaan komersial dan identitas resmi
+
+Penggunaan aplikasi untuk memproses media pribadi maupun bisnis diperbolehkan. Hak atas media pengguna tidak dialihkan kepada pengembang. Jangan menggunakan nama atau logo Zidee Ress untuk menyiratkan dukungan resmi yang tidak ada, mengaku sebagai penerbit resmi, atau menyamarkan APK modifikasi sebagai rilis resmi.
+
+Kode Zidee Ress dilisensikan di bawah [GNU GPL versi 3](LICENSE) (SPDX: `GPL-3.0-only`). Anda boleh memakai, memodifikasi, dan menjual salinan sesuai GPL, termasuk kewajiban menyediakan sumber terkait saat mendistribusikan biner. Ketentuan merek tidak mengurangi hak tersebut. Lisensi masing-masing komponen pihak ketiga tetap berlaku.
+
+**Sumber untuk APK:** unduh sumber aplikasi dari tag yang sama dengan APK di [Releases](https://github.com/dzikkzega/zidee-resolution/releases). Build dengan JDK 17 dan `./gradlew :app:assembleRelease`. Untuk v1.0.0–v1.1.0, dependensi native adalah `dev.ffmpegkit-maintained:ffmpeg-kit-full-gpl:8.1.9`; lihat [sumber dan skrip build Android 8.1 LTS pada tag persis](https://github.com/ffmpegkit-maintained/ffmpeg/tree/v8.1.9-lts-android/android-8.1-lts) dan [notis pihak ketiga](app/src/main/assets/licenses/FFmpegKit-NOTICES.txt).
+
 ## 🌟 Masalah yang Diselesaikan
 
 Meskipun fitur **HD** di WhatsApp dan *"Upload at highest quality"* di Instagram sudah diaktifkan, media dari kamera HP modern tetap sering pecah atau buram karena:

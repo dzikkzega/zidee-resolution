@@ -19,7 +19,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.Crossfade
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -32,6 +35,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zidee.ress.designsystem.theme.ZideeTheme
@@ -236,12 +240,25 @@ private fun ZideeMainNavigation(
         label = "MainNavigation",
     ) { screen ->
         when (screen) {
-            MainDestination.DASHBOARD ->
-                DashboardScreen(
-                    state = dashboardState,
-                    onEvent = onDashboardEvent,
-                    onOpenPrimaryPicker = onOpenDashboardPicker,
-                )
+            MainDestination.DASHBOARD -> {
+                var showHistory by rememberSaveable { mutableStateOf(false) }
+                Column {
+                    TextButton(onClick = { showHistory = true }) { Text("Riwayat versi") }
+                    DashboardScreen(
+                        state = dashboardState,
+                        onEvent = onDashboardEvent,
+                        onOpenPrimaryPicker = onOpenDashboardPicker,
+                    )
+                }
+                if (showHistory) {
+                    AlertDialog(
+                        onDismissRequest = { showHistory = false },
+                        title = { Text("Riwayat versi") },
+                        text = { Text(stringResource(R.string.release_history), Modifier.verticalScroll(rememberScrollState())) },
+                        confirmButton = { TextButton(onClick = { showHistory = false }) { Text("Tutup") } },
+                    )
+                }
+            }
             MainDestination.STUDIO ->
                 StudioEditorScreen(
                     state = studioState,
