@@ -1,0 +1,7 @@
+=== Phase 4 Cold Restart (After am force-stop & Process Relaunch) ===
+beforePid=24304, afterPid=24381 (newProcess=true)
+requireNewProcess=true
+roomHistoryCount=1
+roomFoundId=6f54a556-ae48-455c-b291-2d5a0aa6a1cb, uri=content://media/external_primary/images/media/1000016393, name=ZIDEE_IMG_20261119_223432_IG_STORY.jpg
+mediaStoreExistsAfterRestart=true
+dataStorePrefs: platform=IG_STORY, aspectMode=CROP_9_16, encoder=GPU_MEDIACODEC

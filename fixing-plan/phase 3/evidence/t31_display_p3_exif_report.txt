@@ -1,0 +1,5 @@
+=== T-3.1 Display P3 + EXIF Orientation -> sRGB Verification ===
+Input: raw=1600x1200, colorSpace=Display P3, exif=6
+Mode=ORIGINAL -> 1080x1440, bytes=11793, colorSpace=sRGB IEC61966-2.1, exif=0, topRGB=(254,18,18), bottomRGB=(17,235,60)
+Mode=CROP_9_16 -> 1080x1920, bytes=16346, colorSpace=sRGB IEC61966-2.1, exif=0, topRGB=(254,18,18), bottomRGB=(17,235,60)
+Mode=BLUR_BG_9_16 -> 1080x1920, bytes=15982, colorSpace=sRGB IEC61966-2.1, exif=0, topRGB=(254,18,18), bottomRGB=(17,235,60)

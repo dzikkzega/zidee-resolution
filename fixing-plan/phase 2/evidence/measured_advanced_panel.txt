@@ -1,0 +1,9 @@
+TouchTarget measured [AdvancedAccordionHeader]: 327.98.dp x 47.8803.dp
+TouchTarget measured [ResetAllButton]: 100.548615.dp x 47.880295.dp
+TouchTarget measured [OptionChip(Lanczos-3)]: 146.0349.dp x 47.880295.dp
+TouchTarget measured [OptionChip(1080p)]: 146.0349.dp x 47.88031.dp
+TouchTarget measured [OptionChip(Lock 30 FPS)]: 94.962585.dp x 47.88031.dp
+TouchTarget measured [OptionChip(Bitrate Auto)]: 146.0349.dp x 47.88025.dp
+TouchTarget measured [EncoderTile(CPU)]: 300.04987.dp x 69.82544.dp
+TouchTarget measured [EncoderTile(GPU)]: 300.04987.dp x 68.62848.dp
+TouchTarget measured [ToggleRow(HDR)]: 300.04987.dp x 47.88037.dp

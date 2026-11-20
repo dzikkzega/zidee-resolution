@@ -1,0 +1,13 @@
+﻿=== Zidee Ress Full Unit Test Summary (JVM / Debug) ===
+:core           :  10 tests (0 failed, 0 errors, 0 skipped)
+:domain         :  67 tests (0 failed, 0 errors, 0 skipped)
+:data           :  14 tests (0 failed, 0 errors, 0 skipped)
+:media-engine   :  35 tests (0 failed, 0 errors, 0 skipped)
+:design-system  :  10 tests (0 failed, 0 errors, 0 skipped)
+:presentation   :  30 tests (0 failed, 0 errors, 0 skipped)
+:app            :   5 tests (0 failed, 0 errors, 0 skipped)
+---------------------------------------------------------
+TOTAL           : 171 tests (0 failed, 0 errors, 0 skipped)
+
+Full Gradle Command: .\gradlew.bat ktlintCheck detekt lintDebug test assembleDebug assembleRelease
+Result: BUILD SUCCESSFUL (exit code 0, 550 actionable tasks, including :app:ktlintAndroidTestSourceSetCheck)

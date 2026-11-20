@@ -1,0 +1,9 @@
+=== T-3.1 Large Photo Crop & Memory Profile (TECNO LH7n, Android 14) ===
+Input: 12000x9000 raw (108 MP), EXIF=ROTATE_90 (upright 9000x12000), fileBytes=4000819
+Crop: left=3420, top=4080, w=2160, h=3840 -> 1080x1920
+JavaHeap: baseline=2.96 MiB, peak=99.63 MiB, delta=+96.67 MiB (old full-decode IntArray alone = 411.99 MiB)
+NativeHeap: baseline=5.75 MiB, peak=113.92 MiB, delta=+108.17 MiB
+Output JPEG: 1080x1920, bytes=13446, colorSpace=sRGB IEC61966-2.1, exifOrientation=0
+CropEquivalence EXIF=ROTATE_90: region=512x512 vs full=512x512, meanRgbDiff=0.223 (alreadyCropped=true)
+CropEquivalence EXIF=ROTATE_180: region=512x512 vs full=512x512, meanRgbDiff=0.217 (alreadyCropped=true)
+CropEquivalence EXIF=ROTATE_270: region=512x512 vs full=512x512, meanRgbDiff=0.201 (alreadyCropped=true)

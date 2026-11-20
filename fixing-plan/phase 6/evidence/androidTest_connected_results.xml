@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.zidee.ress.Phase5StudioPreviewAcceptanceTest" tests="4" failures="0" errors="0" skipped="0" time="33.032" timestamp="2026-11-20T03:07:14" hostname="localhost">
+  <properties>
+    <property name="device" value="TECNO LH7n - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="p5_responsiveLayoutsAndPartialBatchRenderCleanly" classname="com.zidee.ress.Phase5StudioPreviewAcceptanceTest" time="4.917" />
+  <testcase name="p5_beforeSidePreservesSourceColorsAndSeparatesSimulationLabels" classname="com.zidee.ress.Phase5StudioPreviewAcceptanceTest" time="1.423" />
+  <testcase name="p5_crop916PreviewMatchesExportAtTwoDensities_zoom1xAnd2x_leftCenterRight" classname="com.zidee.ress.Phase5StudioPreviewAcceptanceTest" time="24.809" />
+  <testcase name="p6_incomingShareExtractorAndDirectShareRouterVerifyOnDevice" classname="com.zidee.ress.Phase6QuickShareAcceptanceTest" time="0.416" />
+</testsuite>

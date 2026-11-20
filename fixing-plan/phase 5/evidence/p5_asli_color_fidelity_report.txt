@@ -1,0 +1,7 @@
+=== Phase 5 T-5.2 Before ('ASLI') Color Fidelity & Label Separation ===
+livePreviewLabels=[◄ ASLI, SIMULASI PRATINJAU ►]
+swatch=Red expected=(230,57,70) actual=(230,57,70) delta=(0,0,0)
+swatch=Teal expected=(42,157,143) actual=(42,157,143) delta=(0,0,0)
+swatch=Blue expected=(29,112,232) actual=(29,112,232) delta=(0,0,0)
+swatch=Amber expected=(245,158,11) actual=(245,158,11) delta=(0,0,0)
+renderedOutputLabel=[HASIL NYATA HD+ ►]

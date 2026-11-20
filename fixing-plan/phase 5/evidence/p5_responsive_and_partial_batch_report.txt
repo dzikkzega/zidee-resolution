@@ -1,0 +1,5 @@
+=== Phase 5 Responsive Layout & Partial Batch UI Evidence ===
+phone_partial_batch=PASS (banner='⚠ Tersimpan Sebagian di Galeri', item='ZIDEE_PARTIAL_OK.jpg')
+phone_partial_error=1 file tersimpan, 1 gagal: Video rusak atau format tidak didukung.
+tablet_portrait_640dp=PASS (header='Zidee Ress Studio', canvas='GESER GARIS ◄ ► · Simulasi Kanvas')
+tablet_landscape_960dp=PASS (header='Zidee Ress Workstation', canvas='SPLIT-SLIDER 120Hz · SIMULASI')

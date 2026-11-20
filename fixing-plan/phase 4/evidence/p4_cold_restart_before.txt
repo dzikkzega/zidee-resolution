@@ -1,0 +1,8 @@
+=== Phase 4 Cold Restart (Before am force-stop) ===
+pid=24304
+itemId=6f54a556-ae48-455c-b291-2d5a0aa6a1cb
+itemUri=content://media/external_primary/images/media/1000016393
+itemName=ZIDEE_IMG_20261119_223432_IG_STORY.jpg
+platform=IG_STORY
+aspectMode=CROP_9_16
+encoder=GPU_MEDIACODEC

@@ -1,0 +1,2 @@
+outsideCircleMaskOpaquePixels=0
+sheetSize=1080x700

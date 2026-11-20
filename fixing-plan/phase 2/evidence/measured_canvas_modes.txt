@@ -1,0 +1,3 @@
+TouchTarget measured [CanvasModeSegment(ORIGINAL)]: 103.74065.dp x 47.8803.dp
+TouchTarget measured [CanvasModeSegment(BLUR_BG_9_16)]: 104.13964.dp x 47.8803.dp
+TouchTarget measured [CanvasModeSegment(CROP_9_16)]: 104.13965.dp x 47.8803.dp

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left Side: Degraded Low-Res Pixel Blocks (3x3 Grid inside 66dp Safe Zone) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M32.5,33.0h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M39.1,33.0h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+    <path
+        android:fillColor="#293548"
+        android:pathData="M45.7,33.0h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+
+    <path
+        android:fillColor="#475569"
+        android:pathData="M32.5,39.8h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M39.1,39.8h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M45.7,39.8h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M32.5,46.6h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M39.1,46.6h3.6a0.9,0.9 0 0 1 0.9,0.9v2.8a0.9,0.9 0 0 1 -0.9,0.9h-3.6a0.9,0.9 0 0 1 -0.9,-0.9v-2.8a0.9,0.9 0 0 1 0.9,-0.9z" />
+
+    <!-- Subtle "LOW" label strokes on left -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M33.5,54.5v3.2h2.1 M37.8,54.5a1.25,1.6 0 1,0 0,3.2a1.25,1.6 0 1,0 0,-3.2z M40.5,54.5l0.8,3.2l0.85,-2.2l0.85,2.2l0.8,-3.2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="0.95" />
+
+    <!-- Outer Optical Ring (Strictly inside 66dp Safe Zone) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,25 A19.5,19.5 0 1,1 53.99,25 Z"
+        android:strokeColor="#66F59E0B"
+        android:strokeWidth="1.25" />
+
+    <!-- Inner Crystal Lens -->
+    <path
+        android:fillColor="#1AF59E0B"
+        android:pathData="M54,30 A14.5,14.5 0 1,1 53.99,30 Z"
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="1.6" />
+
+    <!-- Right Side Crisp "HD+" Focus Glyphs -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M57.8,41.0v7.0 M61.8,41.0v7.0 M57.8,44.5h4.0 M64.0,41.0v7.0h1.7c2.1,0 2.1,-7.0 0,-7.0z M71.4,42.7v3.6 M69.6,44.5h3.6"
+        android:strokeColor="#FBBF24"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.45" />
+
+    <!-- Optical Sparkle Gleam inside Right Crystal Half -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M65.0,33.4 L65.6,35.0 L67.2,35.6 L65.6,36.2 L65.0,37.8 L64.4,36.2 L62.8,35.6 L64.4,35.0 Z" />
+
+    <!-- Vertical Amber Gold Split Focus Line -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M53.25,22h1.5v42.5h-1.5z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M53.75,22h0.5v42.5h-0.5z" />
+
+    <!-- Bottom Persuasive Version Pill Badge (ZIDEE · v1.0) Strictly inside r <= 33dp Safe Zone -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M34.5,67.0h39a5.5,5.5 0 0 1 5.5,5.5v0a5.5,5.5 0 0 1 -5.5,5.5h-39a5.5,5.5 0 0 1 -5.5,-5.5v0a5.5,5.5 0 0 1 5.5,-5.5z"
+        android:strokeColor="#0B0D10"
+        android:strokeWidth="1.2" />
+
+    <!-- Crisp Obsidian Vector Lettering: "ZIDEE · v1.0" -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M35.5,70.2h3.0l-3.0,4.6h3.0 M40.3,70.2v4.6 M42.2,70.2v4.6h1.4c1.5,0 1.5,-4.6 0,-4.6z M49.6,70.2h-2.7v4.6h2.7 M46.9,72.5h2.1 M54.0,70.2h-2.7v4.6h2.7 M51.3,72.5h2.1 M58.5,71.5l1.4,3.3l1.4,-3.3 M63.4,71.0l0.9,-0.8v4.6 M63.2,74.8h2.2 M70.9,70.2c1.4,0 1.4,4.6 0,4.6c-1.4,0 -1.4,-4.6 0,-4.6z"
+        android:strokeColor="#0B0D10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.05" />
+
+    <!-- Middle Dot & Decimal Dot inside Version Pill -->
+    <path
+        android:fillColor="#0B0D10"
+        android:pathData="M56.3,71.9a0.6,0.6 0 1,1 -0.01,0z M67.3,73.65a0.55,0.55 0 1,1 -0.01,0z" />
+</vector>

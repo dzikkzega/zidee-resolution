@@ -1,0 +1,5 @@
+TouchTarget measured [PlatformPresetPill(WA_STORY)]: 85.38653.dp x 47.8803.dp
+TouchTarget measured [PlatformPresetPill(WA_CHAT)]: 70.22444.dp x 47.8803.dp
+TouchTarget measured [PlatformPresetPill(IG_STORY)]: 66.63342.dp x 47.8803.dp
+TouchTarget measured [PlatformPresetPill(IG_POST)]: 62.643402.dp x 47.8803.dp
+TouchTarget measured [PlatformPresetPill(IG_CHAT)]: 47.8803.dp x 47.880295.dp

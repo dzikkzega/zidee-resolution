@@ -1,0 +1,6 @@
+=== Phase 6 Quick Share & Direct Share Device Verification on TECNO LH7n (API 34) ===
+ACTION_SEND valid photo: extracted=1 uri=content://media/external_primary/images/media/1000018617
+ACTION_SEND_MULTIPLE mixed (2 valid photos + 1 text/plain + 1 file://): accepted=2
+ACTION_SEND disguised text/plain with 'image/' intent type: accepted=0 (rejected)
+Device DirectShareIntentRouter: action=android.intent.action.SEND grantRead=true resolvedPkg=com.whatsapp
+Direct targets verified: WA=com.whatsapp (SEND), IG=com.instagram.android (SEND_MULTIPLE clip=2), Chooser=ACTION_CHOOSER

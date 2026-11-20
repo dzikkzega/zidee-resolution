@@ -1,0 +1,18 @@
+﻿=== MediaProvider Query: Images (bucket_display_name=ZideeResolution) ===
+Row: 233 _id=1000016335, _display_name=ZIDEE_IMG_20261119_222415_WA_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17350, mime_type=image/jpeg
+Row: 234 _id=1000016337, _display_name=ZIDEE_IMG_20261119_222422_WA_CHAT.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17242, mime_type=image/jpeg
+Row: 238 _id=1000016362, _display_name=ZIDEE_IMG_20261119_223121_IG_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=12999, mime_type=image/jpeg
+Row: 239 _id=1000016367, _display_name=ZIDEE_IMG_20261119_223124_WA_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17350, mime_type=image/jpeg
+Row: 240 _id=1000016369, _display_name=ZIDEE_IMG_20261119_223130_WA_CHAT.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17242, mime_type=image/jpeg
+Row: 242 _id=1000016379, _display_name=ZIDEE_IMG_20261119_223251_WA_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17350, mime_type=image/jpeg
+Row: 243 _id=1000016381, _display_name=ZIDEE_IMG_20261119_223258_WA_CHAT.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=17242, mime_type=image/jpeg
+Row: 244 _id=1000016386, _display_name=ZIDEE_IMG_20261119_223308_IG_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=12999, mime_type=image/jpeg
+Row: 245 _id=1000016393, _display_name=ZIDEE_IMG_20261119_223432_IG_STORY.jpg, relative_path=Pictures/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=12999, mime_type=image/jpeg
+
+=== MediaProvider Query: Video (bucket_display_name=ZideeResolution) ===
+Row: 11 _id=1000016336, _display_name=ZIDEE_VID_20261119_222418_IG_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=312920, mime_type=video/mp4
+Row: 12 _id=1000016338, _display_name=ZIDEE_VID_20261119_222425_WA_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=312920, mime_type=video/mp4
+Row: 13 _id=1000016368, _display_name=ZIDEE_VID_20261119_223127_IG_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=743491, mime_type=video/mp4
+Row: 14 _id=1000016370, _display_name=ZIDEE_VID_20261119_223132_WA_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=463652, mime_type=video/mp4
+Row: 15 _id=1000016380, _display_name=ZIDEE_VID_20261119_223254_IG_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=312920, mime_type=video/mp4
+Row: 16 _id=1000016382, _display_name=ZIDEE_VID_20261119_223301_WA_STORY.mp4, relative_path=Movies/ZideeResolution/, bucket_display_name=ZideeResolution, is_pending=0, _size=312920, mime_type=video/mp4

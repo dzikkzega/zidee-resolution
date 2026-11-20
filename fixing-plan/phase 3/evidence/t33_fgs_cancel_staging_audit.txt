@@ -1,0 +1,19 @@
+=== T-3.3 Foreground Service, Background Cancel & Staging Audit (TECNO LH7n, Android 14) ===
+[Staging Audit 1 - Success & Saved]
+  before=[]
+  savedUri=content://media/external_primary/video/media/1000016301, existsInMediaStore=true
+  after=[]
+[Staging Audit 2 - Failure]
+  before=[]
+  error=IllegalStateException: FFmpeg failed with exit code 1: . 12.103
+  libavdevice    62.  3.103 / 62.  3.103
+  libavfilter    11. 14.103 / 11. 14.1
+  after=[]
+[Staging Audit 3 - Background Progress & Notification Cancel]
+  before=[]
+  observedFlowPercents=[1]
+  observedBackgroundNotifications=[text='Mengoptimalkan video WA_STORY (1%)' progress=1]
+  cancelActionTitle=Batal, cancelSent=true, cancelledViaException=true
+  notificationStillActiveAfterCancel=false
+  afterImmediate=[]
+  afterSettled1000ms=[]

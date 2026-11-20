@@ -1,0 +1,17 @@
+=== T-3.2 Video HDR->SDR, Dual Encoders & 30s/60s Auto-Split (TECNO LH7n, Android 14) ===
+HDR Input Probe: 1920x1080 @ 60.00fps, dur=3.00s, codec=hevc, pix_fmt=yuv420p10le, primaries=bt2020, trc=smpte2084, space=bt2020nc
+[HDR->SDR CPU_LIBX264 BLUR_BG_9_16]
+  progressUpdates=53 (0.01..1.0)
+  FFprobe: 1080x1920 @ 30.00fps, dur=3.01s, codec=h264, pix_fmt=yuv420p, primaries=bt709, trc=bt709, space=bt709
+  MediaMetadataRetriever: w=1080, h=1920, rot=0, durMs=3031, colorStd=1, colorTrc=3
+[HDR->SDR GPU_MEDIACODEC CROP_9_16]
+  progressUpdates=40 (0.01..1.0)
+  FFprobe: 1080x1920 @ 30.00fps, dur=3.01s, codec=h264, pix_fmt=yuv420p, primaries=bt709, trc=bt709, space=bt709
+  MediaMetadataRetriever: w=1080, h=1920, rot=0, durMs=3031, colorStd=1, colorTrc=3
+[Auto-Split 30s WA_STORY (CPU_LIBX264)] parts=3 (expected=3)
+  part 1/3: part_00.mp4, bytes=4132806, 640x360 @ 30.00fps, dur=30.02s, codec=h264, pix_fmt=yuv420p, primaries=, trc=, space=gbr
+  part 2/3: part_01.mp4, bytes=4149052, 640x360 @ 30.00fps, dur=30.00s, codec=h264, pix_fmt=yuv420p, primaries=, trc=, space=gbr
+  part 3/3: part_02.mp4, bytes=685961, 640x360 @ 30.00fps, dur=5.02s, codec=h264, pix_fmt=yuv420p, primaries=, trc=, space=gbr
+[Auto-Split 60s IG_STORY (GPU_MEDIACODEC)] parts=2 (expected=2)
+  part 1/2: part_00.mp4, bytes=27874455, 640x360 @ 30.00fps, dur=60.02s, codec=h264, pix_fmt=yuv420p, primaries=, trc=, space=
+  part 2/2: part_01.mp4, bytes=2320721, 640x360 @ 30.00fps, dur=5.02s, codec=h264, pix_fmt=yuv420p, primaries=, trc=, space=

@@ -1,0 +1,20 @@
+﻿--- STEP 1: write Room history & DataStore prefs ---
+
+com.zidee.ress.Phase4ColdRestartTest:.
+
+Time: 3,477
+
+OK (1 test)
+
+
+--- FORCE STOP com.zidee.ress ---
+pidof after force-stop: ''
+--- STEP 2: verify in new process (requireNewProcess=true) ---
+
+com.zidee.ress.Phase4ColdRestartTest:.
+
+Time: 0,28
+
+OK (1 test)
+
+

@@ -1,0 +1,11 @@
+﻿=== app-debug.apk ===
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af
+Signer #1 certificate SHA-1 digest: b085af4ad6820c4b2ce8636c297752c6cf8d83f0
+Signer #1 certificate MD5 digest: cb208d4b9e8020a71f31e235f2d40524
+
+=== app-release.apk ===
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af
+Signer #1 certificate SHA-1 digest: b085af4ad6820c4b2ce8636c297752c6cf8d83f0
+Signer #1 certificate MD5 digest: cb208d4b9e8020a71f31e235f2d40524

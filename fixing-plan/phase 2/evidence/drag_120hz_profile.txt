@@ -1,0 +1,47 @@
+120Hz VSync Drag Profile: frames=239 avg=8.41ms (118.9 fps) p50=8.38ms p90=8.38ms p95=8.39ms p99=8.39ms
+120Hz FrameMetrics Total (UI+RT+GPU): frames=242 avg=11.38ms p50=10.82ms p90=13.00ms p95=17.36ms p99=22.44ms
+120Hz FrameMetrics GPU Duration: frames=242 avg=5.54ms p50=5.29ms p90=6.53ms p95=6.79ms p99=7.81ms
+
+--- ACTIVE DISPLAY MODE DURING DRAG ---
+  DisplayDeviceInfo{"Layar Bawaan": uniqueId="local:0", 1080 x 2460, modeId 1, renderFrameRate 120.00001, defaultModeId 1, supportedModes [{id=1, width=1080, height=2460, fps=120.00001, alternativeRefreshRates=[60.0, 90.0], supportedHdrTypes=[]}, {id=2, width=1080, height=2460, fps=90.0, alternativeRefreshRates=[60.0, 120.00001], supportedHdrTypes=[]}, {id=3, width=1080, height=2460, fps=60.0, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 480, 396.565 x 396.565 dpi, appVsyncOff 2399998, presDeadline 11933334, cutout DisplayCutout{insets=Rect(0, 108 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(468, 0 - 612, 108), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2460 physicalDisplayWidth=1080 physicalDisplayHeight=2460 density={3.0} cutoutSpec={M -24,0 L -24,36 L 24,36 L 24,0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0}, deviceProductInfo null, state ON, committedState ON, frameRateOverride {uid=10290 frameRateHz=120.00001} , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.2, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-1119182123 displayWidth=1080 displayHeight=2460 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2460, xDpi=396.565, yDpi=396.565, refreshRate=120.00001, appVsyncOffsetNanos=2399998, presentationDeadlineNanos=11933334, supportedHdrTypes=[], group=0}
+    mBaseDisplayInfo=DisplayInfo{"Layar Bawaan", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1080 x 2460, largest app 1080 x 2460, smallest app 1080 x 2460, appVsyncOff 2399998, presDeadline 11933334, mode 1120.00001, defaultMode 1, modes [{id=1, width=1080, height=2460, fps=120.00001, alternativeRefreshRates=[60.0, 90.0], supportedHdrTypes=[]}, {id=2, width=1080, height=2460, fps=90.0, alternativeRefreshRates=[60.0, 120.00001], supportedHdrTypes=[]}, {id=3, width=1080, height=2460, fps=60.0, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:0", app 1080 x 2460, density 480 (396.565 x 396.565) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=0}, deviceProductInfo null, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.2, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}
+    mOverrideDisplayInfo=DisplayInfo{"Layar Bawaan", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1080 x 2460, largest app 2352 x 2352, smallest app 1080 x 1020, appVsyncOff 2399998, presDeadline 11933334, mode 1120.00001, defaultMode 1, modes [{id=1, width=1080, height=2460, fps=120.00001, alternativeRefreshRates=[60.0, 90.0], supportedHdrTypes=[]}, {id=2, width=1080, height=2460, fps=90.0, alternativeRefreshRates=[60.0, 120.00001], supportedHdrTypes=[]}, {id=3, width=1080, height=2460, fps=60.0, alternativeRefreshRates=[90.0, 120.00001], supportedHdrTypes=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:0", app 1080 x 2352, density 401 (396.565 x 396.565) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=0}, deviceProductInfo null, removeMode 0, refreshRateOverride 120.00001, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.2, installOrientation ROTATION_0, layoutLimitedRefreshRate null, hdrSdrRatio not_available, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default}
+
+--- DUMPSYS GFXINFO (com.zidee.ress) ---
+Applications Graphics Acceleration Info:
+Uptime: 627949767 Realtime: 958150692
+
+** Graphics info for pid 26999 [com.zidee.ress] **
+
+Stats since: 627947667622582ns
+Total frames rendered: 232
+Janky frames: 1 (0.43%)
+Janky frames (legacy): 20 (8.62%)
+50th percentile: 10ms
+90th percentile: 12ms
+95th percentile: 14ms
+99th percentile: 22ms
+Number Missed Vsync: 0
+Number High input latency: 350
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+Number Frame deadline missed: 1
+Number Frame deadline missed (legacy): 3
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=65 10ms=95 11ms=47 12ms=8 13ms=5 14ms=4 15ms=0 16ms=3 17ms=1 18ms=1 19ms=0 20ms=0 21ms=0 22ms=2 23ms=0 24ms=1 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 6ms
+90th gpu percentile: 7ms
+95th gpu percentile: 7ms
+99th gpu percentile: 8ms
+GPU HISTOGRAM: 1ms=0 2ms=0 3ms=0 4ms=0 5ms=46 6ms=132 7ms=44 8ms=8 9ms=2 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 2656800
+  Max resource usage: 382.58MB (x144)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 3 (stopped = 2)
+CPU Caches:
+  Glyph Cache: 142.77 KB (1 entry)

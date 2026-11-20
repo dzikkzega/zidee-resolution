@@ -1,0 +1,33 @@
+name: Publish signed APK
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag (vMAJOR.MINOR.PATCH)
+        required: true
+      sha256:
+        description: SHA-256 of locally signed APK
+        required: true
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ inputs.tag }}
+      DIGEST: ${{ inputs.sha256 }}
+    steps:
+      - name: Verify draft asset and publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ $TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && $DIGEST =~ ^[0-9a-f]{64}$ ]]
+          test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = true
+          file="Zidee-Ress-$TAG.apk"
+          gh release download "$TAG" --pattern "$file"
+          printf '%s  %s\n' "$DIGEST" "$file" | sha256sum -c -
+          signer=$(ls -v "$ANDROID_HOME"/build-tools/*/apksigner | tail -1)
+          "$signer" verify --print-certs "$file" | grep -Fx 'Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af'
+          gh release edit "$TAG" --draft=false

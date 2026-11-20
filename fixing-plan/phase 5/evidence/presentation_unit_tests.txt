@@ -1,0 +1,9 @@
+﻿=== :presentation:testDebugUnitTest Breakdown ===
+com.zidee.ress.presentation.common.DomainUiMappersTest: 3 passed, 0 failed, 0 errors, 0 skipped
+com.zidee.ress.presentation.dashboard.DashboardViewModelTest: 7 passed, 0 failed, 0 errors, 0 skipped
+com.zidee.ress.presentation.quickshare.QuickShareViewModelTest: 5 passed, 0 failed, 0 errors, 0 skipped
+com.zidee.ress.presentation.share.DirectShareRouterAndExtractorTest: 5 passed, 0 failed, 0 errors, 0 skipped
+com.zidee.ress.presentation.studio.CropPreviewGeometryTest: 3 passed, 0 failed, 0 errors, 0 skipped
+com.zidee.ress.presentation.studio.StudioEditorViewModelTest: 7 passed, 0 failed, 0 errors, 0 skipped
+---------------------------------------------------------
+TOTAL :presentation:testDebugUnitTest: 30 passed, 0 failed, 0 errors, 0 skipped

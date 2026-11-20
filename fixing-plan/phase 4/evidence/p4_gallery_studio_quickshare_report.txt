@@ -1,0 +1,17 @@
+=== Phase 4 Gallery DoD: Studio & Quick Share on TECNO LH7n (API 34) ===
+[Studio -> Photo SaveToGallery]
+  uri=content://media/external_primary/images/media/1000016379
+  dir=Pictures/ZideeResolution/, bucket=ZideeResolution, isPending=0, bytes=17350
+  visibleInAlbumQuery=true, recordedInRoom=true
+[Studio -> Video SaveAndShare]
+  uri=content://media/external_primary/video/media/1000016380
+  atShareIntentTime: dir=Movies/ZideeResolution/, bucket=ZideeResolution, isPending=0, bytes=312920, visibleInAlbumQuery=true, historyRecordedBeforeShare=true
+[QuickShare -> Photo ClickSaveAndShare]
+  uri=content://media/external_primary/images/media/1000016381
+  atShareIntentTime: dir=Pictures/ZideeResolution/, bucket=ZideeResolution, isPending=0, bytes=17242, visibleInAlbumQuery=true, historyRecordedBeforeShare=true
+[QuickShare -> Video ClickSaveOnly]
+  uri=content://media/external_primary/video/media/1000016382
+  dir=Movies/ZideeResolution/, bucket=ZideeResolution, isPending=0, bytes=312920
+  visibleInAlbumQuery=true, recordedInRoom=true
+[Regression -> IS_PENDING=0 Update Returns 0 Rows (On-Device)]
+  errorReported=true, historyDelta=0, emittedEffects=0, pendingStillExists=false, stagingLeft=[]

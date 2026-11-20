@@ -1,0 +1,14 @@
+=== Phase 5 T-5.2 Crop 9:16 Preview vs Export Audit on TECNO LH7n (API 34) ===
+Source: 4000x3000 landscape (Left=Red, Center=Green, Right=Blue), Preview thumbnail: 960x720
+density=2.0x case=z1_left   preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(169,56,36) dominant=RED
+density=2.0x case=z1_center preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,169,51) dominant=GREEN
+density=2.0x case=z1_right  preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,91,177) dominant=BLUE
+density=2.0x case=z2_left   preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(196,34,34) dominant=RED
+density=2.0x case=z2_center preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,169,51) dominant=GREEN
+density=2.0x case=z2_right  preview=360x640 export=1080x1920 meanAbsDiff=0.00 avgRGB=(34,76,202) dominant=BLUE
+density=3.0x case=z1_left   preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(169,56,36) dominant=RED
+density=3.0x case=z1_center preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,169,51) dominant=GREEN
+density=3.0x case=z1_right  preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,91,177) dominant=BLUE
+density=3.0x case=z2_left   preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(196,34,34) dominant=RED
+density=3.0x case=z2_center preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(33,169,51) dominant=GREEN
+density=3.0x case=z2_right  preview=540x960 export=1080x1920 meanAbsDiff=0.00 avgRGB=(34,76,202) dominant=BLUE
