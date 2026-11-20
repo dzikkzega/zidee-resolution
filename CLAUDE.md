@@ -65,6 +65,15 @@ Seluruh keputusan produk, desain, dan teknis terdokumentasi di folder `docs/`:
 
 ---
 
-## 5. Aturan Lokal Workspace ECC (Auto-Loaded)
+## 5. Aturan Git, Atribusi & Larangan Jejak Claude (WAJIB)
+
+1. **Dilarang menambahkan `Co-Authored-By` atau trailer Git apa pun** yang menyebut Claude, Anthropic, AI, atau alamat seperti `noreply@anthropic.com` pada pesan commit (`git commit`), merge commit, maupun tag.
+2. **Dilarang mencantumkan Claude/Anthropic/AI sebagai contributor, author, committer, atau reviewer** di riwayat Git (`--author`, `GIT_AUTHOR_*`, `GIT_COMMITTER_*`), `CONTRIBUTORS`, `AUTHORS`, `README`, `package`/`build` metadata, maupun daftar kontributor repositori.
+3. **Dilarang menambahkan footer, badge, atau watermark AI** pada deskripsi Pull Request, Issue, komentar kode, maupun dokumentasi (contoh yang dilarang keras: *"Generated with Claude Code"*, *"Assisted by Claude"*, *"AI-generated"*, atau sejenisnya).
+4. **Gunakan murni identitas Git lokal milik developer** saat membuat commit atau PR sehingga seluruh riwayat repositori dan kode bersih tanpa jejak penggunaan engine Claude.
+
+---
+
+## 6. Aturan Lokal Workspace ECC (Auto-Loaded)
 
 @.agents/rules/kotlin-android-ecc.md

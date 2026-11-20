@@ -21,8 +21,8 @@ androidxTestExtJunit = "1.2.1"
 androidxTestRunner = "1.6.2"
 
 # App Versioning (Synced with Launcher Icon Version Badge)
-appVersionName = "1.0.0"
-appVersionCode = "1"
+appVersionName = "1.0.1"
+appVersionCode = "2"
 minSdk = "26"
 targetSdk = "35"
 compileSdk = "35"

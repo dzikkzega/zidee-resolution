@@ -1,12 +1,15 @@
-name: Publish signed APK
+name: Publish signed APKs
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Existing release tag (vMAJOR.MINOR.PATCH)
+        description: Existing release tag
         required: true
-      sha256:
-        description: SHA-256 of locally signed APK
+      arm64:
+        description: arm64-v8a APK SHA-256
+        required: true
+      x64:
+        description: x86_64 APK SHA-256
         required: true
 permissions:
   contents: write
@@ -17,17 +20,21 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
       TAG: ${{ inputs.tag }}
-      DIGEST: ${{ inputs.sha256 }}
+      ARM64: ${{ inputs.arm64 }}
+      X64: ${{ inputs.x64 }}
     steps:
-      - name: Verify draft asset and publish
+      - name: Verify both APKs and publish
         shell: bash
         run: |
           set -euo pipefail
-          [[ $TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && $DIGEST =~ ^[0-9a-f]{64}$ ]]
+          [[ $TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ && $ARM64 =~ ^[0-9a-f]{64}$ && $X64 =~ ^[0-9a-f]{64}$ ]]
           test "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = true
-          file="Zidee-Ress-$TAG.apk"
-          gh release download "$TAG" --pattern "$file"
-          printf '%s  %s\n' "$DIGEST" "$file" | sha256sum -c -
-          signer="$ANDROID_HOME/build-tools/35.0.0/apksigner"
-          "$signer" verify --print-certs "$file" | grep -Fx 'Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af'
+          for abi in arm64-v8a x86_64; do
+            file="Zidee-Ress-$TAG-$abi.apk"
+            gh release download "$TAG" --pattern "$file"
+            digest=$ARM64; if [[ $abi == x86_64 ]]; then digest=$X64; fi
+            printf '%s  %s\n' "$digest" "$file" | sha256sum -c -
+            test "$(unzip -Z1 "$file" | awk -F/ '$1=="lib" {print $2}' | sort -u)" = "$abi"
+            "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --print-certs "$file" | grep -Fx 'Signer #1 certificate SHA-256 digest: b308eb0f27e6819b2021984d50540ce2e306af1f5d3e5c69f23fc8148b3be9af'
+          done
           gh release edit "$TAG" --draft=false
